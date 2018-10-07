@@ -45,7 +45,7 @@
                 <div class = "col-12 col-sm-6 align-self-center">
                     <div class = "row justify-content-center align-items-center">
                         <img src = "img/logo.png" class = "img-fluid mx-auto">
-                        <button type = "submit" class = "w-50 btn bg-warning text-black mx-auto">Reserve Table</button>
+                        <a href = "#reserve_table"  class = "w-50 btn-sm btn-block bg-warning text-dark mx-auto nav-link text-center" role = "button" button type = "submit" >Reserve Table</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
     <div class = "row row-content justify-content-center">
         <div class = "col-sm-8">
             <div class = "card">
-            <h3 class ="card-header bg-warning text-white">Reserve a Table</h3>
+            <h3 class ="card-header bg-warning text-white" id = "reserve_table">Reserve a Table</h3>
                 <div class = "card-body">
                 <form>
                     <div class = "form-group row">
@@ -147,10 +147,10 @@
                     </div>
                     <div class="form-group row">
                         <label for="date-time" class="col-sm-3 col-form-label">Date and Time</label>
-                        <div class="form-check-inline col-sm-3">
+                        <div class="form-check-inline col-sm-4">
                             <input type="datetime" class="form-control" id="date" name="date" placeholder="Date">
                         </div>
-                        <div class="form-check-inline col-sm-3">
+                        <div class="form-check-inline col-sm-4">
                             <input type="datetime" class="form-control" id="time" name="time" placeholder="Time">
                         </div>
                     </div>
